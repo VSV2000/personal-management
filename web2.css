@@ -136,13 +136,7 @@ nav {
   justify-content: center;
 }
 
-.wrapper {
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 1200px;
-  padding-right: 10px;
-  padding-left: 10px;
-}
+
 
 .read {
   background-color: #ffffff;
@@ -154,7 +148,7 @@ nav {
 }
 
 .about-text {
-  padding: 60px 0px;
+  padding: 50px 0px;
 }
 
 .heading {
@@ -225,7 +219,7 @@ nav {
 .loremcontent1 {
   display: flex;
   align-items: center;
-  width: 50%;
+  
 }
 
 .lorem1 {
@@ -237,9 +231,6 @@ nav {
   padding: 100px 0px;
 }
 
-.imagetext {
-  margin-left: 15px;
-}
 
 .imagetext h4,
 .imagetext p {
@@ -264,10 +255,14 @@ nav {
 
 .wrappercontents {
   display: flex;
+  justify-content: center;
   align-items: center;
   column-gap: 61px;
   padding-top: 25px;
   padding-bottom: 50px;
+}
+.about-para p{
+  padding: 0px 226px;
 }
 
 .box {
@@ -670,10 +665,29 @@ input {
 button:hover{
   cursor: pointer;
   background-color: #3d597c;
+  color: azure;
   transition: 0.50s;
 }
 .nav-links a:hover{
 background-color: #265b6eb7;
 transition: 0.50s;
 opacity: 0.50;
+}
+.navbar ul a:hover{
+  transition: 0.50s;
+  background: #405b7c;
+  opacity: 0.90;
+}
+
+#save:hover,#subscribe:hover,#submit:hover{
+  background-color: #5b6a7e;
+  color: azure;
+  transition: 0.50s;
+  opacity: 0.80;
+}
+#regional:hover{
+  background-color: #4366949c;
+  color: rgb(25, 26, 26);
+  transition: 0.50s;
+  
 }
